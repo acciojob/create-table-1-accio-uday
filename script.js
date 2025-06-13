@@ -3,11 +3,11 @@ function insert_Row() {
 	let table = document.getElementByID("sampleTable");
 
 	// Insert a new row at the top (index 0)
-	let newRow = table.insertRow(0);
+	// let newRow = table.insertRow(0);
 
 	// Insert cells in the new row
-	let cell1 = newRow.insertCell(0);
-	let cell2 = newRow.insertCell(1);
+	let new cell1 = newRow.insertCell(0);
+	let new cell2 = newRow.insertCell(1);
 
 	// Add text to the cells
 	cell1.innerHTML = "New Cell1";
